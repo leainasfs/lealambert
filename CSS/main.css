@@ -1,0 +1,407 @@
+body {
+    font-family: 'Staatliches', cursive;
+    background-color: #343a40;
+}
+
+.home-link {
+    font-size: 30px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.home-link:hover {
+    color: #868686;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-item {
+    padding: 10px;
+    padding-bottom: 0;
+    font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 255);
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #868686;
+}
+
+.bg-home {
+    background-image: url("../IMAGE/photo-35.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.menu-link {
+    margin: 5%;
+    padding: 20px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-weight: 300;
+    transition: 0.5s;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+    color: #868686;
+    border-bottom: 1px solid #868686;
+}
+
+.menu {
+    padding-top: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about {
+    margin-top: 25%;
+    margin-bottom: 15%;
+    padding-top: 5%;
+    font-size:22px;
+}
+
+.img-about {
+    height: 50vh;
+    background-image: url("../IMAGE/about.jpg");
+    background-size: cover;
+    background-position: initial;
+    margin: auto;
+}
+
+.feather {
+    text-decoration: none;
+    color: white;
+}
+
+.feather:hover {
+    text-decoration: none;
+    color:#868686;
+    transition: 0.5s;
+}
+
+.title-main {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+
+.b-t {
+    color: #ffffff;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.contact {
+    margin-bottom: 10%;
+}
+
+.c-t {
+    color: #ffffff;
+    text-align: center;
+}
+
+.mail {
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.email {
+    border: solid 1px #ffffff;
+    width: 40%;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.email:hover {
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    color: #343a40;
+
+}
+
+.l-social {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.img-social {
+    width: 8%;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.img-social:hover {
+    opacity: 0.5;
+}
+
+/*
+PORTFOLIO
+-------------
+ */
+
+.cat {
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.m-cat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+.img1 {
+    background-image: url(../IMAGE/photo-26.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(../IMAGE/photo-51.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img1:hover, .img2:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    text-decoration: none;
+}
+
+.name_section {
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.name_section:hover {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: lighter;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: scale(1.3);
+}
+
+.img-portfolio {
+    padding-top: 30%;
+    padding-bottom: 20%;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10%;
+}
+
+.photo {
+    margin-top: 10%;
+}
+
+.image-photo {
+    padding: 1px;
+}
+
+.img_photo {
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+/*
+Copyright
+ */
+
+.right {
+    margin-top: 5%;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.copy {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.copyright {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.copyright:hover {
+    color: #868686;
+    text-decoration: none;
+}
+
+/*
+PROJETS
+------------------
+ */
+
+ .projet-item {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 3%;
+    display: inline-block;
+    max-width: 40%;
+ }
+
+ .projet-desc {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+ }
+
+ .projet-link {
+    text-decoration: none;
+    color: white;
+ }
+
+ .projet-link:hover {
+    text-decoration: none;
+    color: #868686;
+    transition: 0.25s;
+ }
+
+ .captwit {
+    max-width: 20%;
+ }
+
+ .twitter {text-align: center }
+
+/*
+RESPONSIVE
+------------------
+ */
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    .menu {
+        padding-top: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .menu-link {
+        margin: 10%;
+    }
+
+    .menu-link:hover {
+        color: #ffffff;
+    }
+
+    .img-about {
+        margin: 10%;
+    }
+
+    .b-t {
+        width: 90%;
+        padding: 20px;
+        text-align: inherit;
+    }
+
+    .mail {
+        margin-top: 15%;
+    }
+
+    .c-t {
+        margin-top: 15%;
+    }
+
+    .l-social {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .img-social {
+        width: 20%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    .menu {
+        padding-top: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .menu-link {
+        margin: 10%;
+    }
+
+    .menu-link:hover {
+        color: #ffffff;
+    }
+
+    .img-about {
+        margin: 10%;
+    }
+
+    .b-t {
+        width: 90%;
+        padding: 20px;
+        text-align: inherit;
+    }
+
+    .m-cat {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .mail {
+        margin-top: 15%;
+    }
+
+    .c-t {
+        margin-top: 15%;
+    }
+
+    .l-social {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .img-social {
+        width: 25%;
+        padding: 20px;
+    }
+
+    .right {
+        font-size: 14px;
+    }
+}

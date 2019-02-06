@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="Site personnel de Léa Lambert - Portfolio.">
+    <title>Léa Lambert - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#home").show();
+            $("#concert").hide();
+            $("#portrait").hide();
+            $("#concertButton").click(function () {
+                $("#concert").show();
+                $("#home").hide();
+                $("#portrait").hide();
+            });
+            $("#portraitButton").click(function () {
+                $("#portrait").show();
+                $("#home").hide();
+                $("#concert").hide();
+            });
+        });
+    </script>
+     <style>@import url('https://fonts.googleapis.com/css?family=Staatliches');</style>
+    <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans');</style>
+    <link rel="icon" type="image/png" sizes="32x32" href="IMAGE/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="IMAGE/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMAGE/favicon-16x16.png">
+    <link rel="manifest" href="IMAGE/manifest.json">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="display: flex;">
+    <div class="container" id="menu" style="display: flex;">
+        <a class="navbar-brand" href="index.html" style=" width: 10%;
+    padding-top: 10px;">
+            <h1 class="home-link">Léa Lambert</h1>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">A Propos</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link " href="projets.html">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container" id="home">
+        <div class="container cat " style="display: flex;">
+            <div class="row m-cat">
+                <a class="col-xs-12 col-sm-12 img1 img-portfolio" href="#" id="concertButton">
+                    <h2 class="name_section">Concert</h2>
+                </a>
+                <a class="col-xs-12 col-sm-12 img2 img-portfolio" href="#" id="portraitButton">
+                    <h2 class="name_section">Portrait</h2>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container photo" id="concert">
+        <div class="row">
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-25.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-2.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-6.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-4.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-11.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-9.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-5.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-3.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-1.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-6.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-12.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-10.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-7.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-13.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-14.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-20.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-15.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-16.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-17.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-18.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-21.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-19.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-27.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-29.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-30.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-22.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-32.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-33.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-37.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-38.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-23.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-39.jpg"></div>
+            </div>
+            <div class="col-sm-6 col-xs-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-40.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-24.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-26.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-28.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-31.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-34.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-35.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-36.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-41.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-42.jpg"></div>
+            </div>
+            <div class="col-md-12 image-photo">
+                <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-43.jpg"></div>
+            </div>
+        </div>
+        <div class="text-center right">
+            <p class="copy">Mentions Légales © <a href="https://www.antoinecorniere.com" target="_blank" class="copyright">Antoine
+                Cornière</a>
+            </p>
+        </div>
+    </div>
+<div class="container photo" id="portrait">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-54.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-52.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-51.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-44.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-45.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-47.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-49.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-50.jpg"></div>
+        </div>
+        <div class="col-md-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-46.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-48.jpg"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 image-photo">
+            <div class="col-md-12 img_photo"><img style="width:100%; height:auto;" src="IMAGE/photo-53.jpg"></div>
+        </div>
+    </div>
+    <div class="text-center right">
+        <p class="copy">Mentions Légales © <a href="https://www.antoinecorniere.com" target="_blank" class="copyright">Antoine
+            Cornière</a>
+        </p>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+</html>

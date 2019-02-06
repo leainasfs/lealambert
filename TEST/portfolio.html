@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Adrien Sanuy Munoz</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="link-logo">Léa Lambert</a>
+        <div class="nav-menu">
+            <ul class="top-menu">
+                <li><a href="index.html" class="link-menu">Accueil</a></li>
+                <li><a href="portfolio.html" class="link-menu active">Portfolio</a></li>
+                <li><a href="contact.html" class="link-menu">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section class="container">
+    <div class="folio-block">
+        <div class="folio-image">
+            <h4 class="folio-title">Refonte ZARA</h4>
+            <img class="myImg" src="../IMAGES/zara.png" alt="Zara" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Gilette</h4>
+            <img class="myImg" src="../IMAGES/gilette.png" alt="Gilette" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Site Web de LISA</h4>
+            <img class="myImg" src="../IMAGES/site-lisa.png" alt="Lisa" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Droit des femmes !</h4>
+            <img class="myImg" src="../IMAGES/droit.png" alt="Droit_des_femmes" style="width:100%;max-width:300px">
+        </div>
+    </div>
+    <div class="folio-block">
+        <div class="folio-image">
+            <h4 class="folio-title">Mademoiselle Bigoudi</h4>
+            <img class="myImg" src="../IMAGES/bigoudi.png" alt="bigoudi" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Refonte Nike</h4>
+            <img class="myImg" src="../IMAGES/nike.png" alt="nike" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Paysage Imaginaire</h4>
+            <img class="myImg" src="../IMAGES/imaginaire.jpg" alt="imaginaire" style="width:100%;max-width:300px">
+        </div>
+        <div class="folio-image">
+            <h4 class="folio-title">Encre de Chine</h4>
+            <img class="myImg" src="../IMAGES/encre.jpg" alt="encre" style="width:100%;max-width:300px">
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var images = document.getElementsByClassName('myImg');
+            var modalImg = document.getElementById("img01");
+            var i;
+            for (i = 0; i < images.length; i++) { // looping through all image tag names in document. on click of image, run function of displaying modal with source URL, alt text, and caption
+                images[i].onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    modalImg.alt = this.alt;
+                    captionText.innerHTML = this.nextElementSibling.innerHTML;
+                };
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+    </div>
+</section>
+</body>
+</html>
