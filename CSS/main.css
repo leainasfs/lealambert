@@ -349,7 +349,14 @@ RESPONSIVE
         width: 20%;
         padding: 20px;
     }
+
+     .projet-item {
+        display:block;
+        justify-content: right;
+        min-width: 99%;
+ }
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
     .menu {
